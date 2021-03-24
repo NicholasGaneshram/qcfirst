@@ -8,3 +8,4 @@ Creating a CunyFirst for Queens College
   -We plan on having a responsive web design to fit tablets, desktop and mobile applications.<br/>
   
   ### Below are our planned Visual Designs of our website.
+  ![MobileHomepage](MobileHome.jpg)

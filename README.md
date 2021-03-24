@@ -9,7 +9,13 @@ Creating a CunyFirst for Queens College
   
   ### Below are our planned Visual Designs of our website.
    
-  #### Mobile HomePage
+#### Mobile Login Page
+![](MobileLockscreen.png)
+
+#### Desktop Login Page
+![](DesktopLockscreen.png)
+
+#### Mobile HomePage
   
   ![](MobileHome.jpeg)
 

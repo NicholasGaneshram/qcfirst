@@ -53,35 +53,35 @@ Creating a CunyFirst for Queens College
 
 ![](Desktopp_Home_Page.png)
 
-### Mobile Course Mangement Home Page
+### Mobile Course Mangement  Page
 
 ![](Moblie_Course_Management_Page.png)
 
-### Desktop Course Mangement Home Page
+### Desktop Course Mangement  Page
 
 ![](Desktop_Course_Management.png)
 
-### Mobile Add Course Home Page
+### Mobile Add Course  Page
 
 ![](Moblie_Add_Page.png)
 
-### Desktop Add Course Home Page
+### Desktop Add Course  Page
 
 ![](Desktop_Add_Page.png)
 
-### Mobile Edit Course Home Page
+### Mobile Edit Course  Page
 
 ![](Moblie_Edit_Page.png)
 
-### Desktop Edit Course Home Page
+### Desktop Edit Course  Page
 
 ![](Desktop_Edit_Page.png)
 
-### Mobile Contact Us Course Home Page
+### Mobile Contact Us  Page
 
 ![](Moblie_Contact_Us_Page.png)
 
-### Desktop Contact Us Course Home Page
+### Desktop Contact Us  Page
 
 ![](Desktop_Contact_Us_Page.png)
 

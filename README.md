@@ -47,4 +47,4 @@ Creating a CunyFirst for Queens College
 
 ### Mobile Home Page
 
-![](Mobile_Home_Page.png)
+![](Moblie_Home_Page.png)

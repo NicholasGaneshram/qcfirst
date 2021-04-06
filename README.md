@@ -92,4 +92,8 @@ Creating a CunyFirst for Queens College
 ![](Desktop_Contact_Us_Page.png)
 
 
+##Updates 
+Contributions:
+Myself (Nicholas Ganeshram) created the student side of QCfirst and login Page, while Shohum created the Instructor side. I also attached a portion of my CSS file, which I'am currently working on. 
+
 

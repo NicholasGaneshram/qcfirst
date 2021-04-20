@@ -1,9 +1,9 @@
 
 ### Updates:
 Contributions:<br/>
-Myself (Nicholas Ganeshram) created the student side of QCfirst and login Page, while Shohum created the Instructor side. I also attached a portion of my CSS file, which I'am currently working on. 
-
-
+Myself (Nicholas Ganeshram) created the student side of QCfirst and login Page, while Shohum created the Instructor side. Our Final designs are posted and can our live website can be viewed here: 
+https://fabulouswrathfulmalware.shohumboker.repl.co/
+Shohum and I did slightly different designs,while trying to achieve a fluid user-experience.
 
 # qcfirst
 Creating a CunyFirst for Queens College

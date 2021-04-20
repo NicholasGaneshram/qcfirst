@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+  Name: Nicholas Ganeshram
+  Date: 04.20.2021
+  Section: CS 355
+
+  This is the login.html page for my Course Enrollment Application, this is where students and 
+  instructors will login and instructor, based on their provided credentials it will direct 
+  them to the appropriate site. Here students can also sign up for an account if they don't 
+  have one, or click forget my password to recover.
+-->
+<html lang="en" >
+    <head>
+        <title>QC Enrollment</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Queens College Course Enrollment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/global.css">
+        <link rel="stylesheet" type="text/css" href="/css/loginpage.css">
+    </head>
+    <body>
+        <h1>Queens College Hub</h1>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <input type="text" placeholder="Name"/>
+                    <input type="email" placeholder="Email"/>
+                    <input type="password" placeholder="Password">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h2 style="color: black">Sign in</h2>
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <a href="/html/forgotpassword.html">Forgot your password?</a>
+                    <a href="/html/homepage.html">Student?</a>
+                    <a href="/html/ihome.html">Instructor?</a>
+                    <button>Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <a href="/html/homepage.html"><button class="ghost" id="signIn">Sign In</button></a>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h2>Hello!<br> New to Queens College?</h2>
+                        <p>Let's Get Started With Your Journey!</p>
+                        <a href="/html/signup.html"><button class="ghost" id="signUp">Sign Up</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer></footer>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!---
+  Name: Shohum Boker
+  Date: 04.20.2021
+  Section: CS 355
+  
+  This is coursemanagement.html uses coursemanagement.css and pick a course to edit or use this page 
+  to go and add another course. 
+-->
+<html>
+    <head>
+        <title>Instructor-Course Management</title>
+        <meta charset="utf-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/coursemanagement.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body>
+        <header>
+            <a href="/index.html" id="out">Logout</a>
+            <a href="/html/ihome.html" id="logo"><h2>QC CunyFirst</h2></a>
+        </header>
+        <nav>
+             <a href="/html/icontactHelp.html">Contact/Help</a>
+        </nav>
+        <section id="main">
+            
+            <!--- I got some help from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio-->
+            <form>
+                <h1>Edit Courses:</h1>
+                <input type="radio" id="Lexicology_101_1" name="classes" value="male">
+                <label for="Lexicology_101_1">Lexicology 101
+                <p>5:00PM-7:00PM Monday, Wednesday</p></label><br>
+                <input type="radio" id="Oneirology_321_1" name="classes" value="female">
+                <label for="Oneirology_321_1">Oneirology 321
+                <p>12:15PM-1:45PM Monday, Wednesday</p></label><br>
+                <input type="radio" id="Lexicology_101_2" name="classes" value="other">
+                <label for="Lexicology_101_2">Lexicology 101
+                <p>3:00PM-4:55PM Tuesday, Thursday</p></label><br>
+                <a href="add-edit.html" id="add"><input type="submit" id="submit" class="button"></a>
+            </form>
+            <br>
+            <a href="add-edit.html" id="add"><button class="button">Add Course</button></a>
+        </section>
+       <footer>
+            <p>&#169 Shohum Boker- 2021</p>
+        </footer>
+    </body>
+</html>

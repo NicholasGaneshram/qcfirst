@@ -1,0 +1,119 @@
+<!--
+  Name: Nicholas Ganeshram
+  Date: 04.20.2021
+  Section: CS 355
+
+  This is the enroll.html page for my Course Enrollment Application, this is the enrollment page 
+  for students where they will search for a course using filters and then apply enroll in them .
+-->
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>QC Enrollment-Enroll</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Queens College Course Enrollment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/global.css">
+    </head>
+    <body id="enroll">
+        <header id="showcase">
+            <div class="content-wrap">
+                <div class="horizontal-center">
+                    <a href="/html/homepage.html"style="text-decoration:none;color: white"><h1>Queens College CunyFirst</h1></a>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section-g">
+                <div class="TaskBar">
+                    <a href="/html/withdraw.html">Withdraw Course</a>
+                    <a href="/html/contacthelp.html">Contact</a>
+                    <a href="/index.html">Logout</a>
+                </div>
+            </section>
+            <section id="section-a">
+                <div class="content-wrap">
+                    <h2 class="content-title">Filter Courses By:</h2>
+                    <div class="content-text">
+                        <div class="row input-container">
+                            <div class="col">
+                                <div class="styled-input wide">
+                                    <input type="text" required  placeholder="Course Name"/>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="styled-input wide">
+                                    <input type="text" required placeholder="Department" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row input-container2">
+                            <div class="col-md col-sm">
+                                <div class="styled-input">
+                                    <input type="text" required placeholder="Instructor's Name"/>
+                                </div>
+                            </div>
+                            <div class="col-md col-sm">
+                                <div class="styled-input">
+                                    <input type="text" required placeholder="Semester (Ex: Fall 2021)"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row input-container">
+                            <div class="col">
+                                <div class="styled-input wide">
+                                    <input type="text" required placeholder="Class Availability (Ex: Open or Closed)"/>   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row input-container">
+                            <div class="col">
+                                <div class="styled-input wide">
+                                    <input type="text" required placeholder="Class Days (Ex: Monday or Mon)"/>    
+                                </div>
+                            </div>
+                            <div class="col 12">
+                                <div class="btn-lrg submit-btn">Search</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-b" >
+                <div class="content-wrap">
+                    <h2>Results: </h2>
+                </div>
+                <div class="content-wrap">
+                    <div class="information notification-box">
+                        <label class="containercheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <h3>CSCI 355</h3>
+                        <p>Mon Wed 8:00PM - 10:50PM</p>
+                    </div>
+                    <div class="question notification-box">
+                        <label class="containercheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <h3>CSCI 355</h3>
+                        <p>Mon Wed 8:00PM - 10:50PM</p>
+                    </div>
+                    <div class="tip notification-box">
+                        <label class="containercheck">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <h3>CSCI 355</h3>
+                        <p>Mon Wed 8:00PM - 10:50PM</p>
+                    </div>
+                    <div class="col 12">
+                        <div class="btn-lrg submit-btn">Enroll</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="main-footer" class="grid"></footer>
+    </body>
+</html>

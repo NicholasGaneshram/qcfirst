@@ -1,3 +1,11 @@
+/*
+Name: Nicholas Ganeshram
+Date: 04.20.2021
+Section: CS 355
+
+This is the loginpage.css page for my Course Enrollment Application, this will be the css for my application,  of my login page.
+
+*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 * {
@@ -79,14 +87,7 @@ form {
     height: 100%;
     text-align: center;
 }
-/*
-Name: Nicholas Ganeshram
-Date: 04.20.2021
-Section: CS 355
 
-This is the loginpage.css page for my Course Enrollment Application, this will be the css for my application,  of my login page.
-
-*/
 input {
     background-color: #eee;
     border: none;

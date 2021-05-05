@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!---
+  Name: Shohum Boker
+  Date: 04.20.2021
+  Section: CS 355
+  
+  This is add-edit.html uses add-edit.css. Used to both edit and add, same page for 
+  edit and add will be changed depending on action taken on the courseManagement,
+  will flip-flop using js, if not possibe will adjust-->
+<html>
+    <head>
+        <title>Instructor-Add</title>
+        <meta charset="utf-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/add-edit.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body>
+        <header>
+            <a href="/index.html" id="out">Logout</a>
+            <a href="/html/ihome.html" id="logo"><h2>QC CunyFirst</h2></a>
+        </header>
+        <nav>
+            <a href="/html/coursemanagement.html">Course Management</a>
+            <a href="/html/icontactHelp.html">Contact/Help</a>
+        </nav>
+        <section id="main">
+            <!--- The form will filledout in the edit version of the  page--->
+            <form>
+                <div id="part1">
+                    <h1>Course Details:</h1>
+                    <label for="name">Course Name: </label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                    <br>
+                    <label for="info">Course Info: </label>
+                    <br>
+                    <textarea id="info" name="info" cols="30" rows="5" required></textarea><br>
+                    <label  for="capacity">Capacity: </label>
+                    <input type="number" id="capacity" name="capacity" required>
+                    <p>Scheduled Dates:</p>
+                </div>
+                <div id="DOW">
+                    <div class="child">
+                        <input type="checkbox" id="monday" name="monday">
+                        <label for="monday"><span>Monday</span></label>
+                    </div>
+                    <div class="child">
+                        <input type="checkbox" id="tuesday" name="tuesday">
+                        <label for="tuesday"><span>Tuesday</span></label>
+                    </div>
+                    <div class="child">
+                        <input type="checkbox" id="wednesday" name="wednesday">
+                        <label for="wednesday"><span>Wednesday</span></label>
+                    </div>
+                    <div class="child">
+                        <input type="checkbox" id="thursday" name="thursday">
+                        <label for="thursday"><span>Thursday</span></label>
+                    </div>
+                    <div class="child">
+                        <input type="checkbox" id="friday" name="friday">
+                        <label for="friday"><span>Friday</span></label>
+                   </div>
+                   <div class="child">
+                        <input type="checkbox" id="saturday" name="saturday">
+                        <label for="saturday"><span>Saturday</span></label>
+                   </div>
+                   <div class="child">
+                        <input type="checkbox" id="sunday" name="sunday">
+                        <label for="sunday"><span>Sunday</span></label>
+                   </div>
+                </div>
+                <br>
+                <!--- value="Edit" in edit verison -->
+                <input class="button" type="submit" value="Add">
+            </form>
+            <!--- Button used to delete the course in edit verison -->
+        </section>
+        <footer>
+            <p>&#169 Shohum Boker- 2021</p>
+        </footer>
+    </body>
+</html>
+                    

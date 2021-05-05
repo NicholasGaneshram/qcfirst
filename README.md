@@ -1,3 +1,6 @@
+### Updates as of May 05, 2021
+  Our current website has been updated to include a integrated sign-in and sign-up backend, using Mongoose and MongoDB. Shohum was able to create a MongoDB and integrate it into our project. While, nyself(Nicholas Ganeshram) revised some our HTML and CSS code.
+
 
 ### Updates:
 Contributions:<br/>

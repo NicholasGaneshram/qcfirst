@@ -1,6 +1,7 @@
-### Updates as of May 05, 2021
-  Our current website has been updated to include a integrated sign-in and sign-up backend, using Mongoose and MongoDB. Shohum was able to create a MongoDB and integrate it into our project. While, myself (Nicholas Ganeshram) revised some our HTML and CSS code.
 
+  Our current website has been updated to include a integrated sign-in and sign-up backend, using Mongoose and MongoDB. Shohum was able to create a MongoDB and integrate it into our project. While, myself (Nicholas Ganeshram) revised some our HTML and CSS code. Shohum used technologies such as MongoDB and ejs. We used for our frontend mostly CSS and HTML, which we eventually rendered into ejs.
+Here is a Link to our Final Project:
+https://Term-project.shohumboker.repl.co
 
 ### Updates:
 Contributions:<br/>

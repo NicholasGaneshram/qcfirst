@@ -1,7 +1,21 @@
 
-  Our current website has been updated to include a integrated sign-in and sign-up backend, using Mongoose and MongoDB. Shohum was able to create a MongoDB and integrate it into our project. While, myself (Nicholas Ganeshram) revised some our HTML and CSS code. Shohum used technologies such as MongoDB and ejs. We used for our frontend mostly CSS and HTML, which we eventually rendered into ejs.
+  Our current website has been updated to include a integrated sign-in and sign-up backend, using Mongoose and MongoDB. Shohum was able to create a MongoDB and integrate it into our project. While, myself (Nicholas Ganeshram) created our sign-in page, contact forms and the student-side UI. Shohum used technologies such as MongoDB and ejs. We used for our frontend mostly CSS and HTML, which we eventually rendered into ejs.
 Here is a Link to our Final Project:
 https://Term-project.shohumboker.repl.co
+
+Our Project has a Sign-In Page using js, and adapts to any type of display. Whether that be mobile, desktop, or tablet. 
+
+https://Term-project.shohumboker.repl.co
+
+Our student-Side Application provides quick access to stay up-to-date with Queens College's Website,Twitter and Facebook Pages.
+
+https://term-project.shohumboker.repl.co/login
+
+Our Website allows Students to search for courses, withdraw and Contact for help.
+While our instructor offers similar functionalities, allowing instructors to create a course, delete a course as well as be able to contact for help.
+
+Feel free to create an account, and test our website out!
+
 
 ### Updates:
 Contributions:<br/>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+  Name: Nicholas Ganeshram
+  Date: 04.20.2021
+  Section: CS 355
+
+  This is the signup.html page for my Course Enrollment Application, this is where first time 
+  students or faculty can create an account.
+-->
+<html lang="en">
+    <head>
+        <title>QC Enrollment-Signup</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Queens College Course Enrollment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/global.css">
+        <script src="/js/wrong.js" type="text/js"></script>
+    </head>
+    <body>
+        <header id="showcase">
+            <div class="content-wrap">
+                <div class="horizontal-center">
+                    <a href="/"style="text-decoration:none;color: white"><h1>Queens College CunyFirst</h1></a>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section-a">
+                <div class="content-wrap">
+                    <h2 class="content-title">Welcome to Queens College!</h2>
+                    <div class="container">
+                        <div class="row">
+                            <h4 style="text-align:center">Let's Create Your Account! </h4>
+                        </div>
+                        <form action="/create" method="POST">
+                          <% if (Muser) { %>
+    
+                            <p class="Muser">Email is in use</p>
+                          <% } %>
+                          <% if (Wpass) { %>
+    
+                            <p class="Wpass">Passwords do not match</p>
+                          <% } %>
+                        <div class="row input-container">
+                            <div class="col">
+                                <div class="styled-input wide">
+                                    <input type="text" required placeholder="First Name" name="FirstName" id="FirstName" />
+                                </div>
+                                <div class="col">
+                                    <div class="styled-input wide">
+                                        <input type="text" required placeholder="Last Name" name="LastName" id="LastName"/>
+                                    </div>
+                                </div>
+                                <div class="col-md col-sm">
+                                    <div class="styled-input">
+                                        <input type="email" required placeholder="Email" name="Email" id="Email"/>
+                                    </div>
+                                </div>
+                                <div class="col-md col-sm">
+                                    <div class="styled-input">
+                                        <input type="text" required placeholder="Phone Number (Optional)" name="PhoneNumber" id="PhoneNumber"/>
+                                    </div>
+                                </div>
+                                <div class="col-md col-sm">
+                                    <div class="styled-input">
+                                        <input type="password" required placeholder="Password" name="Password" id="Password"/>
+                                    </div>
+                                    <div class="col-md col-sm">
+                                        <div class="styled-input">
+                                            <input type="password" required placeholder="Re-enter Password" name="REPassword" id="REPassword" />
+                                        </div>
+                                                  <input type="checkbox" id="Instructor" name="Instructor" value="true">
+                                        <label for="Instructor"><br>Are You an Instructor? </label><br>
+                                        
+                                        <div class="col 12">
+                                           <br> <input class="btn-lrg submit-btn" type="submit" id="submit">
+                                        </div><br>
+                                        
+                        </form>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="main-footer"></footer>
+    </body>
+</html>

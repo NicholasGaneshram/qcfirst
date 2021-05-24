@@ -1,0 +1,38 @@
+/*
+Name: Shohum Boker
+Date: 04.20.2021
+Section: CS 355
+
+This is the home.css page for the Course Enrollment Application this just for ihome.html
+*/
+ul{
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+}
+p{
+  font-size: 10px;
+}
+li{
+    text-indent: 1vh;
+    margin: 10px;
+    color: #0c1d5b;
+    background: #79b321;
+    border: 1px solid black; 
+    text-decoration-line: none;
+    /*I got by with a little help from https://stackoverflow.com/questions/33203148/how-to-make-a-div-box-look-3d*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+}
+ul > a{
+   text-decoration-line: none;
+}
+li:hover{
+    transform: scale(1.05);
+}
+.box{
+    margin: 10px;
+    padding-right: 20px;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+}
+

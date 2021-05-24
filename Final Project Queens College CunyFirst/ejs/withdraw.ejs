@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+  Name: Nicholas Ganeshram
+  Date: 04.20.2021
+  Section: CS 355
+
+  This is the withdraw.html page for my Course Enrollment Application, this is where students will 
+  select a course or courses from their current enrollment and drop it from their schedule.
+-->
+<html lang="en" >
+    <head>
+        <title>Queens College Course Enrollment </title>
+        <meta charset="utf-8">
+        <meta name="description" content="Queens College Course Enrollment">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/global.css">
+    </head>
+    <body id="withdraw">
+        <header id="showcase" >
+            <div class="content-wrap">
+                <div class="horizontal-center">
+                    <a href="homepage.html"style="text-decoration:none;color: white"><h1>Queens College CunyFirst</h1></a>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section-g">
+                <div class="TaskBar">
+                    <a href="/enroll">Enroll Course</a>
+                    <a href="/html/contacthelp.html">Contact</a>
+                    <a href="/">Logout</a>
+                </div>
+            </section>
+            <section id="section-a" >
+                <div class="content-wrap">
+                    <h2 class="content-title">Select Which Course You Choose to Withdraw:</h2>
+                    <div class="content-text">
+                      <form action="/drop" method="POST">
+                         <% for (var i = 0; i < info.length; i++) { %>  
+                        <div class="information notification-box">
+                            <label class="containercheck">
+                                 <input type="radio" id="classes" name="classes"
+                                 value="<%= info[i]["_id"]%>">
+                                <span class="checkmark"></span>
+                            </label><h3>
+                      <%= info[i].CourseName
+                      + " " +  info[i].CourseNumber + " - " +
+                      info[i].Semester%></h3>
+                     <p> <% for(var j = 0; j < info[i].DOWS.length; j++) {%> 
+                            <%= info[i].DOWS[j] %>
+                      <% } %>
+                      <%= intToTime(info[i].StartTime)
+                      + "-" + intToTime(info[i].EndTime)%></p></label><br>
+                      </div>
+                    <% } %> 
+                        <div class="col 12">
+                            <input type="submit" value="Withdraw" class="btn-lrg submit-btn">
+                        </div>    
+                      </div>
+                    </form>
+                  </div>
+              </div>
+            </section>
+        </main>
+        <footer id="main-footer"></footer>
+    </body>
+</html>

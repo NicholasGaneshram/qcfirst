@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+  Name: Shohum Boker
+  Date: 04.20.2021
+  Section: CS 355
+
+  This is the rost.ejs page similar to the home but shows the roster for the class. 
+-->
+<html>
+    <head>
+        <title>Instructor-Home</title>
+        <meta charset="utf-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/home.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>    
+    <body>
+
+        <header>
+            <a href="/" id="out">Logout</a>
+            <a href="/ihome" id="logo"><h2>QC CunyFirst</h2></a>
+        </header>
+        <nav>
+            <a href="/coursemanagement">Course Management</a>
+            <a href="/html/icontactHelp.html">Contact/Help</a>
+        </nav>
+        <section id="main">
+        <!-- easy to id the box with current cources with js and css with a div -->
+            <div class="box">
+                <h1><%= info.CourseName
+                      + " " +  info.CourseNumber + " - " +
+                      info.Semester%></h1>
+                  <% for (var i = 0; i < info.Students.length; i++) { %> 
+                  <ul>
+                      <li>
+                      <p><%= info.Students[i]%></li>
+                  </ul>
+                <% } %> 
+            </div>
+            <br>
+            <picture>
+                <source media="(min-width:992px)" srcset="/img/qc_large.jpg">
+                <source media="(min-width:768px)" srcset="/img/qc_med.jpg">
+                <img src="/img/qc_small.jpg" alt="campus pic">
+            </picture>
+        </section>
+        <footer>
+            <p>&#169 Shohum Boker- 2021</p>
+        </footer>
+    </body>
+
+</html>

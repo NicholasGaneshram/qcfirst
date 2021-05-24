@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!---
+  Name: Shohum Boker
+  Date: 04.20.2021
+  Section: CS 355
+  
+  This is coursemanagement.html uses coursemanagement.css and pick a course to edit or use this page 
+  to go and add another course. 
+-->
+<html>
+    <head>
+        <title>Instructor-Course Management</title>
+        <meta charset="utf-8">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/coursemanagement.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>    
+    <body>
+        <header>
+            <a href="/" id="out">Logout</a>
+            <a href="/ihome" id="logo"><h2>QC CunyFirst</h2></a>
+        </header>
+        <nav>
+             <a href="/html/icontactHelp.html">Contact/Help</a>
+        </nav>
+        <section id="main">
+            
+            <!--- I got some help from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_radio-->
+            <form action="/choice" method= "POST">
+                 <h1>Reomve Courses:</h1>
+                  <% for (var i = 0; i < info.length; i++) { %> 
+                     <input type="radio" id="classes" name="classes"
+                     value="<%= info[i]["_id"]%>">
+                    <label for="classes">
+                      <%= info[i].CourseName
+                      + " " +  info[i].CourseNumber + " - " +
+                      info[i].Semester%>
+                     <p><% for(var j = 0; j < info[i].DOWS.length; j++) {%> 
+                            <%= info[i].DOWS[j] %>
+                      <% } %>
+                      <%= intToTime(info[i].StartTime)
+                      + "-" + intToTime(info[i].EndTime)%></p></label>
+                      <br>
+                <% } %> 
+      
+                <input type="submit" id="submit" class="button" value="Remove">
+            </form>
+            <br>
+            <a href="/add" id="add"><button class="button">Add Course</button></a>
+        </section>
+       <footer>
+            <p>&#169 Shohum Boker- 2021</p>
+        </footer>
+    </body>
+</html>

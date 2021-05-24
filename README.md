@@ -4,12 +4,17 @@ Here is a Link to our Final Project:
 https://Term-project.shohumboker.repl.co
 
 Our Project has a Sign-In Page using js, and adapts to any type of display. Whether that be mobile, desktop, or tablet. 
-
+![](FinalSignIn.png)
 Our student-Side Application provides quick access to stay up-to-date with Queens College's Website,Twitter and Facebook Pages.
-
+![](StudentHome.png)
 Our Website allows Students to search for courses, withdraw and Contact for help.
-While our instructor offers similar functionalities, allowing instructors to create a course, delete a course as well as be able to contact for help.
+![](StudentEnroll.png)
+![](FinalContact.png)
+While our instructor offers similar functionalities, HomePage
+![](InstructorHome.png)
 
+allowing instructors to create a course, delete a course as well as be able to contact for help.
+![](InstructorRemove.png)
 Feel free to create an account, and test our website out!
 
 
